@@ -1,0 +1,26 @@
+source: https://www.youtube.com/watch?v=A01KtJTv1oc
+
+- npm init to create package.json file
+- npm install express
+- npm install ejs
+- npm install nodemon --save-dev
+
+- create a public folder (and subfolders) for CSS, JavaScript, images
+- create a main.css file in css folder
+- add an image in img folder (me.js)
+- add views folder (where web site pages will be stored)
+- add index.html and about.html in views folder
+- create app.js in route folder
+
+- to use nodemon add "start": "nodemon app.js" in package.json under "scripts" key
+- set imports in app.js file to use express
+- make server lsten on port 3000
+
+- npm start
+- in the browser go to http://localhost:3000/, if "Cannot GET /" everything is running ok
+
+- between Imports and Listen on port 3000 insert Static Files
+
+- change extension from .html to .ejs on index and about files
+
+- set views
