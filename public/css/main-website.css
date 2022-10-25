@@ -1,0 +1,50 @@
+/* TAG SELECTORS */
+
+body {
+    background-color: #E5EBB2;
+}
+hr {
+    border-color: #E5EBB2;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 8px;
+    width: 10%;
+}
+h1 {
+    color: #FF8787;
+    font-size: 45px;
+}
+h3 {
+    color: #BCE29E ;
+    font-size: 30px;
+}
+
+a:link{
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #F8C4B4;
+
+}
+a:hover{
+    font-size: 32px;
+    text-decoration: none;
+    color: #F8C4B4;
+}
+a:visited{
+    font-size: 30px;
+    text-decoration: none;
+    color: #F8C4B4;
+
+}
+
+
+/* CLASS SELECTORS */
+/* specific style to many elements of the same type */
+
+/* ID SELECTORS */
+/* specific style to a specific element */
+#nav-header{
+    background-color: #BCE29E;
+    color:aqua;
+}
